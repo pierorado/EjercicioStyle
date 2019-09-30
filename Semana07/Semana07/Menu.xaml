@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Semana07.Menu">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+           
+            <Button x:Name="btn1" Text="ClassDemo" BackgroundColor="red"></Button>
+            <Button x:Name="btn2" Text="DynamicCode" BackgroundColor="Green"></Button>
+            <Button x:Name="btn3" Text="DynamicDemo" BackgroundColor="Blue"></Button>
+            <Button x:Name="btn4" Text="ExplicitCode" BackgroundColor="Orange"></Button>
+            <Button x:Name="btn5" Text="ExplicitControlCode" BackgroundColor="Black"></Button>
+            <Button x:Name="btn6" Text="ExplicitControlDemo" BackgroundColor="Pink"></Button>
+            <Button x:Name="btn7" Text="ExplicitDemo" BackgroundColor="AliceBlue"></Button>
+            <Button x:Name="btn8" Text="GlobalDemo" BackgroundColor="Azure"></Button>
+            <Button x:Name="btn9" Text="ImplicitCode" BackgroundColor="Violet"></Button>
+            <Button x:Name="btn10" Text="ImplicitControlDemo" BackgroundColor="Aqua"></Button>
+            <Button x:Name="btn11" Text="ImplicitDemo" BackgroundColor="Aquamarine"></Button>
+            <Button x:Name="btn12" Text="InheritanceCode" BackgroundColor="Beige"></Button>
+            <Button x:Name="btn13" Text="InheritanceDemo" BackgroundColor="RosyBrown"></Button>
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
